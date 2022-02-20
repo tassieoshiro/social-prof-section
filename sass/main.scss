@@ -1,0 +1,16 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background: url("/images/bg-pattern-top-mobile.svg") no-repeat,
+    url("/images/bg-pattern-bottom-mobile.svg") no-repeat;
+  background-position: top center, bottom center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@import "config", "review", "card", "responsive";

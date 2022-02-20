@@ -1,0 +1,78 @@
+@include media-lg {
+  body {
+    background: url("/images/bg-pattern-top-desktop.svg") no-repeat,
+      url("/images/bg-pattern-bottom-desktop.svg") no-repeat;
+    background-position: top left, bottom right;
+    background-size: 500px 350px, 1200px 750px;
+  }
+
+  .container-star {
+    padding-top: 2rem;
+
+    .flex {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      grid-gap: 2rem;
+      margin-top: 4rem;
+
+      &__description {
+        align-items: center;
+        text-align: left;
+
+        h1 {
+          font-size: 2.5rem;
+          font-weight: 700;
+          margin-left: 0;
+          padding-bottom: 1rem;
+        }
+
+        p {
+          margin-right: 2.5rem;
+        }
+      }
+
+      &__star {
+        .review {
+          width: 70%;
+          display: flex;
+          align-items: center;
+
+          &__star {
+            margin-right: 2rem;
+            margin-left: 1rem;
+          }
+
+          h2 {
+            margin-top: 0;
+          }
+        }
+
+        .review-2 {
+          margin-left: 5rem;
+        }
+        .review-3 {
+          margin-left: 10rem;
+        }
+      }
+    }
+  }
+
+  // CARD SECTION
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    min-height: 50vh;
+
+    &__card {
+      height: 235px;
+    }
+
+    .card-2 {
+      margin-top: 2rem;
+    }
+    .card-3 {
+      margin-top: 4rem;
+    }
+  }
+}

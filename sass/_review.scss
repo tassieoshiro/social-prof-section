@@ -1,0 +1,37 @@
+.container-star {
+  width: 80%;
+  margin: auto;
+
+  .flex {
+    text-align: center;
+
+    h1 {
+      width: 70%;
+      margin: auto;
+      color: $dark-color;
+      font-weight: bold;
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.4;
+      color: $grey;
+      padding-bottom: 1.5rem;
+    }
+
+    .review {
+      background: $light-grey;
+      padding: 1rem;
+      margin: 1rem 0 1rem 0;
+      border-radius: 0.8rem;
+
+      h2 {
+        font-size: 1.2rem;
+        color: $dark-color;
+        font-weight: 700;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
